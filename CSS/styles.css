@@ -1,0 +1,191 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 985px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 1px 1px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1px 0 0 1px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.polaroid{
+   border: solid 10px #8B008B;
+   border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  border-color: #e7d6e7;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+body{
+  background-color: #A1FFFA;
+}
+div {
+    text-align: center;
+}
+nav{
+  font-family: "Sofia", cursive;
+  text-align: center;
+  font-size: 35px;
+  color: #F239F5;
+  text-decoration: none;
+}
+
+header{
+  font-family: "Sofia", cursive;
+  text-align: center;
+  font-size: 75px;
+    color: #F239F5;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: "Sofia", cursive;
+    color: #F239F5;
+}
+
+pre{
+  font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #6928DE;
+    background-color: white;
+    position: relative;
+    margin-right: 25%;
+}
+
+p{
+  color: #6928DE;
+  font-size: 25px;
+  font-style: bold;
+}
+
+a:hover{
+  color: #87ed13;
+  text-decoration: none;
+}
+
+/* social media icon */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  align-items: center;
+}
+.fa-instagram {
+  background: #c00e99;
+  color: white;
+  align-items: center;
+}
+.fa-deviantart {
+  background: #0ddf76;
+  color: rgb(244, 245, 244);
+  align-items: center;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
