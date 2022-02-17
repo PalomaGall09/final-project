@@ -113,6 +113,10 @@ h1, h2{
     color: #F239F5;
 }
 
+h3{
+  text-align: center;
+}
+
 pre{
   font-family: 'Indie Flower', cursive;
     font-size: 25px;
@@ -189,3 +193,4 @@ footer {
   display: table;
   clear: both;
 }
+
